@@ -1,5 +1,7 @@
 <?php
+
 include 'config.php';
+
 try {
     // Enable SQL error reporting.
     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
@@ -13,7 +15,7 @@ try {
     );
 
     // Set character ser to UTF-8.
-    $conn->set_charset(CHARSET);
+    // $conn->set_charset(CHARSET);
 } catch (\mysqli_sql_exception  $e) { // Catch SQL errors.
 ?>
     <pre>
@@ -23,7 +25,6 @@ try {
                     $e->getCode()
                 ) // Throw error message. 
                 ?>
-                
             </pre>
 <?php
 }

@@ -1,5 +1,6 @@
 <?php
 
+
 /**
  * For developers: team bizmarrow debugging mode.
  *
@@ -21,9 +22,10 @@ date_default_timezone_set('Africa/Lagos'); //http://www.php.net/manual/en/timezo
 // Include our functions.
 // require 'functions.php';
 
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database */
-define('DB_NAME', 'bdm');
+define('DB_NAME', 'blog');
 
 /** MySQL database username */
 define('DB_USER', 'root');
